@@ -35,7 +35,7 @@ if(isset($_POST['submit'])) {
             echo "Desculpa, ocorreu um erro. Tente novamente!";
         }
     } else {
-        echo "Desculpa, esse tipo de aruqivo nao é suportado.";
+        echo "Desculpa, esse tipo de aruqivo nao é suportado.";//
     }
 }
 ?>

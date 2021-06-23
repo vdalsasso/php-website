@@ -4,8 +4,7 @@ echo "oioioi";
 
 
 if(isset($_POST['submit'])) {
-    echo "oioioAi";
-
+    
     $file = $_FILES['file'];
     $name = $_FILES['file']['name']; //encontra nome do arquivo
     $tmp_name = $_FILES['file']['tmp_name']; 
